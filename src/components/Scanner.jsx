@@ -33,10 +33,17 @@ const Scanner = () => {
       <div className="scanner-div">
         {scanResult ? (
           <div>
-            <h4>Success:</h4>
-            <p>{scanResult}</p>
-            <h4 className="scanner-link">Link:</h4>
-            <a href={scanResult}>{scanResult}</a>
+            {scanResult.includes("http") ? (
+              <>
+                <h4>Link:</h4>
+                <a href={scanResult}>{scanResult}</a>
+              </>
+            ) : (
+              <>
+                <h4>Success:</h4>
+                <p>{scanResult}</p>
+              </>
+            )}
           </div>
         ) : (
           <div id="reader"></div>
