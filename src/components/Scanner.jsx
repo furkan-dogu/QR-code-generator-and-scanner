@@ -35,6 +35,8 @@ const Scanner = () => {
           <div>
             <h4>Success:</h4>
             <p>{scanResult}</p>
+            <h4 className="scanner-link">Link:</h4>
+            <a href={scanResult}>{scanResult}</a>
           </div>
         ) : (
           <div id="reader"></div>
