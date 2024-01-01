@@ -33,7 +33,8 @@ const Scanner = () => {
       <div className="scanner-div">
         {scanResult ? (
           <div>
-            Success: <a href={scanResult}>{scanResult}</a>
+            <h4>Success:</h4>
+            <p>{scanResult}</p>
           </div>
         ) : (
           <div id="reader"></div>
