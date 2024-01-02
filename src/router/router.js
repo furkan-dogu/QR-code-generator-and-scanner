@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Home from '../components/Home'
+import Home from '../pages/Home'
 import Generator from '../components/Generator'
 import Scanner from '../components/Scanner'
 

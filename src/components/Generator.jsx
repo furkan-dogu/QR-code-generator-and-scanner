@@ -52,7 +52,7 @@ const Generator = () => {
         <button type="button" onClick={download}><IoMdDownload /></button>
       </div>
 
-      <button className="back-btn" type="button" onClick={() => navigate(-1)}>
+      <button className="back-btn" type="button" onClick={() => navigate("/")}>
         Back
       </button>
     </div>
