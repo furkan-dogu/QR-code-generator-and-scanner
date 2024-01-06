@@ -8,10 +8,16 @@
 
 The project I created with React includes a web application that allows users to generate QR codes and scan them to read information.
 
+## Table of Contents
+
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Project Skeleton](#project-skeleton)
+- [Screenshots](#screenshots)
+
 ## Live Demo
 
 [QR Code Generator and Scanner](https://qr-code-generator-and-scanner-woad.vercel.app/)
-
 
 ## Usage
 
